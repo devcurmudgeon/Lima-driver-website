@@ -1,0 +1,99 @@
+a { color: #bf2400; }
+
+input#searchbox {
+    background: url("wikiicons/search-bg.gif") no-repeat scroll 100% 50% #fbebbc;
+    color: #000000;
+    padding-right: 16px;
+}
+
+div.pageheader {
+    background-color: #a7d239;
+    border-top:2px solid #64a800;
+    border-bottom:2px solid #64a800;
+    color: #fbebbc;
+}
+
+.pageheader .actions ul li {
+    background: none repeat scroll 0 0 #28170b;
+    color: #fbebbc;
+    margin: 0;
+    padding: 0.1em 0.5em 0;
+}
+
+.pageheader .actions ul li {
+    background: none repeat scroll 0 0 #28170B;
+    border-color: #28170B;
+    border-style: solid solid none;
+    border-width: 0;
+    margin: 0;
+    bottom: 15px;
+    width: 400px;
+    position: relative;
+}
+
+.pageheader li a:hover {
+    background: none repeat scroll 0 0 #FBEBBC;
+    color: #BF2400;
+}
+
+.parentlinks {
+    font: 13px Verdana, Sans-serif;
+}
+
+.title {
+    font: 13px Verdana,sans-serif;
+    margin-top: 0.2em;
+    display:inline;
+}
+
+#logo a {
+    height: 40px;
+    width: 282px;
+    display: block;
+    padding-bottom: 10px;
+    background: url(logo.png) no-repeat;
+}
+#logo a span {
+    visibility: hidden;
+}
+#logo a:hover {
+    text-decoration: none;
+}
+
+.pageheader .actions a { color: #fbebbc; }
+
+div.header {
+    background-repeat: no-repeat;
+    min-width: 282px;
+    padding-top: 0px;
+}
+
+div#footer {
+    border-top: 4px solid #28170b;
+}
+#pageinfo {
+    border-top: 0;
+}
+
+#content {
+    max-width: 50em;
+}
+html, body, p, h1, h2, h3, h4, h5, h6, address, ul, li, input, form, textarea, select {
+color:#58595B;
+font:13px Verdana,Arial,Sans-serif;
+margin:1;
+padding:2;
+}
+
+h1 {
+    border-bottom: 2px solid #E0E0E0;
+    border-top: 2px solid #E0E0E0;
+    color: #58595B;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0 0 18px;
+    padding: 8px 0 8px 0px;
+}
+.pagedate{
+font-size:10px;
+}
