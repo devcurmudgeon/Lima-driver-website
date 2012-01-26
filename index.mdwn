@@ -5,19 +5,6 @@ Lima is an open source graphics driver which supports Mali-200 and Mali-400 GPUs
 
 The aim of this driver is to finally bring all the advantages of open source software to ARM SoC graphics drivers. Currently, the sole availability of binary drivers is increasing development and maintenance overhead, while also reducing portability, compatibility and limiting choice. Anyone who has dealt with GPU support on ARM, be it for a linux with a GNU stack, or for an android, knows the pain of dealing with these binaries. Lima is going to solve this for you, but some time is needed still to get there.
 
-
-## Software
-===
-
-In order to keep things manageable, no code will be made available until shortly after FOSDEM 2012, where the [Lima driver project will be officially announced.](http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")
-
-## Contact
-===
-
-We can currently be reached on irc on [freenode](http://freenode.net/), in the #lima channel.
-
-A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show_bug.cgi?id=45232), but has not been created yet.
-
 ## News
 ===
 
@@ -25,7 +12,12 @@ A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show
 * 2012-01-23: [Codethink](http://www.codethink.co.uk/) puts out a [press release](http://www.prweb.com/releases/2012/1/prweb9130318.htm) for the business world. This is definitely not vaporware!
 * 2012-01-21: Talk appears on [the FOSDEM schedule.]( http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")[The cat is out of the bag!](http://twitter.com/#!/codethink/status/160803588929626112) Story published by [phoronix](http://www.phoronix.com/vr.php?view=16971), hits [slashdot](http://linux.slashdot.org/story/12/01/21/0935248/coming-soon-an-open-source-reverse-engineered-mali-gpu-driver), [golem](http://www.golem.de/1201/89274.html), [pro-linux](http://www.pro-linux.de/news/1/17948/freier-treiber-fuer-mali-grafikprozessoren-angekuendigt.html) and [tweakers](http://tweakers.net/nieuws/79485/opensourcedriver-voor-arms-mali-gpu-in-ontwikkeling.html).
 
-## Supported Hardware
+## Software
+===
+
+In order to keep things manageable, no code will be made available until shortly after FOSDEM 2012, where the [Lima driver project will be officially announced.](http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")
+
+## Hardware
 ===
 
 ### [Mali-400](Hardware#Mali-400):
@@ -38,6 +30,20 @@ A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show
 ### [Mali-200](Hardware#Mali-200):
 
 * [Telechips 8902](Hardware#Telechips+8902), [8803](Hardware#Telechips+8803)
+
+## Contribute
+===
+
+The Lima driver currently only has some preliminary and highly experimental support. This experimental phase is necessary to gain a full and complete understanding of how the Mali GPUs work. Once more is known, an actual graphics driver (most likely based off of Mesa/Gallium) can be written. There is a lot of interesting work that still needs to be done!
+
+If you would like to contribute to this project, and would like to know what [Hardware](Hardware) can be used to help develop the Lima driver, check out [the requirements](Hardware#Requirements). Rest assured though, due to the enormous popularity of Android on cheap tablets, contributing to a free graphics driver has never been this cheap and portable at the same time!
+
+## Contact
+===
+
+We can currently be reached on irc on [freenode](http://freenode.net/), in the #lima channel.
+
+A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show_bug.cgi?id=45232), but has not been created yet.
 
 ===
 
