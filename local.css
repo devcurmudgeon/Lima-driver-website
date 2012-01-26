@@ -1,7 +1,7 @@
 a { color: #bf2400; }
 
 input#searchbox {
-    background: url("wikiicons/search-bg.gif") no-repeat scroll 100% 50% #fbebbc;
+    background: url("wikiicons/search-bg.gif") no-repeat scroll 100% 50% #ffffff;
     color: #000000;
     padding-right: 16px;
 }
@@ -14,15 +14,15 @@ div.pageheader {
 }
 
 .pageheader .actions ul li {
-    background: none repeat scroll 0 0 #28170b;
-    color: #fbebbc;
+    background: none repeat scroll 0 0 #a7d239;
+    color: #ffffff;
     margin: 0;
     padding: 0.1em 0.5em 0;
 }
 
 .pageheader .actions ul li {
-    background: none repeat scroll 0 0 #28170B;
-    border-color: #28170B;
+    background: none repeat scroll 0 0 #a7d239;
+    border-color: #a7d239;
     border-style: solid solid none;
     border-width: 0;
     margin: 0;
@@ -69,7 +69,7 @@ div.header {
 }
 
 div#footer {
-    border-top: 4px solid #28170b;
+    border-top: 4px solid #64a800;
 }
 #pageinfo {
     border-top: 0;
@@ -86,8 +86,8 @@ padding:2;
 }
 
 h1 {
-    border-bottom: 2px solid #E0E0E0;
-    border-top: 2px solid #E0E0E0;
+    border-bottom: 2px solid #64a800;
+    border-top: 2px solid #64a800;
     color: #58595B;
     font-size: 14px;
     font-weight: bold;
