@@ -1,0 +1,7 @@
+Welcome to the Lima Driver open source project. Lima Driver aims to provide open source driver software for the ARM Mali chipset.
+
+You can join the conversation at #lima on freenode, and there is a mailinglist for developers interested in using or keeping up to date with the project.
+
+Lima Driver is a new project - documentation is incomplete and likely to change. 
+
+
