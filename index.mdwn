@@ -1,7 +1,35 @@
-Welcome to the Lima Driver open source project. Lima Driver aims to provide open source driver software for the ARM Mali chipset.
+# **Lima**: An open source graphics driver for ARM Mali GPUs
 
-You can join the conversation at #lima on freenode, and there is a mailinglist for developers interested in using or keeping up to date with the project.
+Lima is an open source graphics driver which supports Mali-200 and Mali-400 GPUs. 
 
-Lima Driver is a new project - documentation is incomplete and likely to change. 
+The aim of this driver is to finally bring all the advantages of open source software to ARM SoC graphics drivers. Currently, the sole availability of binary drivers is increasing development and maintenance overhead, while also reducing portability, compatibility and limiting choice. Anyone who has dealt with GPU support on ARM, be it for a linux with a GNU stack, or for an android, knows the pain of dealing with these binaries. Lima is going to solve this for you, but some time is needed still to get there.
 
+## Software
+
+In order to keep things manageable, no code will be made available until shortly after FOSDEM 2012, where the [Lima driver project will be officially announced.](http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")
+
+## Contact
+
+We can currently be reached on irc on [freenode](http://freenode.net/), in the #lima channel.
+
+A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show_bug.cgi?id=45232), but has not been created yet.
+
+## News
+
+* 2012-01-24: A new name has been chosen for the project: remali now becomes Lima! We now have a gitorious project, there is the #lima channel on freenode, and [an fd.o project has been requested](https://bugs.freedesktop.org/show_bug.cgi?id=45232).
+* 2012-01-23: Codethink puts out a [press release](http://www.prweb.com/releases/2012/1/prweb9130318.htm) for the business world. This is definitely not vaporware!
+* 2012-01-21: Talk appears on [the FOSDEM schedule.]( http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")[The cat is out of the bag!](http://twitter.com/#!/codethink/status/160803588929626112) Story published by [phoronix](http://www.phoronix.com/vr.php?view=16971), hits [slashdot](http://linux.slashdot.org/story/12/01/21/0935248/coming-soon-an-open-source-reverse-engineered-mali-gpu-driver), [golem](http://www.golem.de/1201/89274.html), [pro-linux](http://www.pro-linux.de/news/1/17948/freier-treiber-fuer-mali-grafikprozessoren-angekuendigt.html) and [tweakers](http://tweakers.net/nieuws/79485/opensourcedriver-voor-arms-mali-gpu-in-ontwikkeling.html).
+
+## Supported Hardware
+
+### [Mali-400](Hardware#Mali-400):
+
+* [AMLogic 8726-M](Hardware#AMLogic+8726-M)
+* [Allwinner A10](Hardware#Allwinner+A10)
+* [ST-Ericsson Novathor](Hardware#ST-Ericsson+Novathor)
+* [Samsung Exynos](Hardware#Samsung+Exynos)
+
+### [Mali-200](Hardware#Mali-200):
+
+* [Telechips 8902](Hardware#Telechips+8902), [8803](Hardware#Telechips+8803)
 
