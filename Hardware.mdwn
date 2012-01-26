@@ -1,0 +1,50 @@
+# GPUs #
+===
+
+## Mali-200
+
+[The Mali-200 GPU](http://www.arm.com/products/multimedia/mali-graphics-hardware/mali-200.php) has 1 GP (Geometry Processor) and 1 PP (Pixel Processor). A Mali-200 pushes out 16M triangles per second at 275Mhz, while pushing out 1 pixel per clock (so 275M pixels/s at 275MHz).
+
+The Mali-200 can be found in the [Telechips 8902](Hardware#Telechips+8902) and [8803](Hardware#Telechips+8803) SoCs.
+
+## Mali-400
+
+[The Mali-400 GPU](http://www.arm.com/products/multimedia/mali-graphics-hardware/mali-400-mp.php) has 1 GP (Geometry Processor) and can have up to 4 PPs (Pixel Processors). The common variant has only 1PP, which makes it little more than an updated and faster Mali-200, and is denoted as a Mali-400 MP1. The Mali-400 MP4, available in the [Samsung Exynos](), has 4PPs and is [pretty competitive in benchmarks](http://www.anandtech.com/show/4686/samsung-galaxy-s-2-international-review-the-best-redefined/17). While the single GP, quad PP design is lagging when the vertex count goes up, in the real world, in september 2011, no other smartphone GPU could touch it. The Mali-400 GP is capable of pushing out 30M triangles per second at 275Mhz, while the fill rate per PP remains the same as the Mali-200 (1pixel/clock, but up to  4PPs are possible).
+
+Mali-400s are present in [AMLogic 8726-M](Hardware#AMLogic+8726-M), [Allwinner A10](Hardware#Allwinner+A10), [ST-Ericsson Novathor](Hardware#ST-Ericsson+Novathor) and [Samsung Exynos](Hardware#Samsung+Exynos) SoCs.
+
+From a driver point of view, very few infrastructural changes are needed for supporting a Mali-400 MP1 from a Mali-200. So far, shader programs have not differed.
+
+## Mali-T604/T658
+
+These unified shader designs were announced by ARM but are not currently shipping. Once this hardware is available to lima developers, support for it can be evaluated.
+
+# SoCs #
+===
+
+## AMLogic 8726-M
+
+Also known as the Amlogic Meson-M1, this is an ARM Cortex A9, running up to 1GHz, which includes a Mali-400 MP1. It is mostly found in 100-250EUR android tablets, making the Amlogic a cheap and highly mobile solution for hacking the lima driver.
+
+More information is available at [amlogic's openlinux website](http://openlinux.amlogic.com/wiki/index.php/Arm), and a kernel tree can be downloaded from [here](http://openlinux.amlogic.com/download/linux/GPL_code_release/2011-12-20/).
+
+## Allwinner A10
+
+An ARM Cortex A8, running up to 1Ghz, which includes a Mali-400 MP1. It is mostly found in 100-250EUR android tablets, making the Allwinner a cheap and highly mobile solution for hacking the lima driver.
+
+More information can be found on [the Rhombus Tech website](http://rhombus-tech.net/allwinner_a10/), which includes [information on how to build a kernel](http://rhombus-tech.net/allwinner_a10/kernel_compile/)
+
+## ST-Ericsson Novathor
+
+A Dual Core ARM Cortex A9 running at 1GHz, which includes a Mali-400 MP1. Most easily found as part of the [Snowball Single Board Computer](http://igloocommunity.org/), which comes with full GNU/Linux and android support. The top of the line smartphone from HTC, the android based Sensation, has a Z710t version which comes with a U9500. Sadly though, this sensation only ships in china.
+
+Plenty of information, which might be very snowball specific, can be found on [the igloo community website](http://igloocommunity.org/).
+
+## Samsung Exynos
+
+The [Samsung Exynos](http://en.wikipedia.org/wiki/Exynos) 42xx is a range of ARM Cortex A9 devices clocked between 1.2 and 1.8GHz. They are the only devices currently carrying a Mali-400MP4. The Exynos of course stars in the top selling, high end Samsung android based smartphones and tablets. The best sold phone of 2011, the Samsung Galaxy S II, comes with an Exynos. A [Single Board Computer with a 4210, called origen,](http://www.origenboard.org/) is available with android and ubuntu support.
+
+## Telechips 8902
+
+
+## Telechips 8803
