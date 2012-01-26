@@ -1,3 +1,21 @@
+# Requirements #
+
+## Hardware
+
+To help hack the Lima driver, you need some Mali based hardware.
+
+If you're a geek with a high end smartphone that isn't an iPhone or a Nokia N9, there is a good chance that you have the stellar Samsung Galaxy SII, this not only gets you a good phone, it also gets you an unlocked bootloader and a buildable and runnable kernel.
+
+If you are looking for a more affordable route into Lima development, then the cheapest or easiest route is to buy a cheap android based tablet with one of the SoCs listed below. 80-100 EUR gets you a 7"er with a mali-200 and a resistive touchscreen (not so good for playing a game with flying foul on the side). 130-200EUR gets you the current generation of cheap tablets with a Mali-400 and a capacitive touchscreen. Do be aware the makers of these cheap tablets are not providing kernel source and are breaching the GPL.
+
+## Software
+
+A full GNU/linux installation is of course preferred, but unless you have a Snowball, that is not very likely.
+
+The minimum version requirement for Android is version 2.3 (Gingerbread). The reason for this is that the reinvented libc and thus reinvented linker, only added support for LD_PRELOAD in version 2.3. LD_PRELOAD is needed to be able to capture the command stream (especially in absence of runnable kernel source).
+
+(SPLIT HERE)
+
 # GPUs #
 ===
 
