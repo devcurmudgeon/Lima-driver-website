@@ -15,6 +15,8 @@ The aim of this driver is to finally bring all the advantages of open source sof
 ## Software
 ===
 
+All lima code will be kept at [our gitorious project](https://gitorious.org/lima).
+
 In order to keep things manageable, no code will be made available until shortly after FOSDEM 2012, where the [Lima driver project will be officially announced.](http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")
 
 ## Hardware
@@ -43,7 +45,7 @@ If you would like to contribute to this project, and would like to know what [Ha
 
 We can currently be reached on irc on [freenode](http://freenode.net/), in the #lima channel.
 
-A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show_bug.cgi?id=45232), but has not been created yet.
+A mailinglist is being created.
 
 ===
 
