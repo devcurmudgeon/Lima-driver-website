@@ -8,7 +8,7 @@ The aim of this driver is to finally bring all the advantages of open source sof
 ## News
 ===
 
-* 2012-01-24: A new name has been chosen for the project: remali now becomes Lima! We now have a gitorious project, there is the #lima channel on freenode, and [an fd.o project has been requested](https://bugs.freedesktop.org/show_bug.cgi?id=45232).
+* 2012-01-24: A new name has been chosen for the project: remali now becomes Lima! We now have a gitorious project, there is the #lima channel on freenode. A mailing list will be created soon.
 * 2012-01-23: [Codethink](http://www.codethink.co.uk/) puts out a [press release](http://www.prweb.com/releases/2012/1/prweb9130318.htm) for the business world. This is definitely not vaporware!
 * 2012-01-21: Talk appears on [the FOSDEM schedule.]( http://fosdem.org/2012/schedule/event/mali "Liberating ARM's Mali GPU")[The cat is out of the bag!](http://twitter.com/#!/codethink/status/160803588929626112) Story published by [phoronix](http://www.phoronix.com/vr.php?view=16971), hits [slashdot](http://linux.slashdot.org/story/12/01/21/0935248/coming-soon-an-open-source-reverse-engineered-mali-gpu-driver), [golem](http://www.golem.de/1201/89274.html), [pro-linux](http://www.pro-linux.de/news/1/17948/freier-treiber-fuer-mali-grafikprozessoren-angekuendigt.html) and [tweakers](http://tweakers.net/nieuws/79485/opensourcedriver-voor-arms-mali-gpu-in-ontwikkeling.html).
 
