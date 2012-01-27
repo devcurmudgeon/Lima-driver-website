@@ -47,5 +47,5 @@ A mailinglist [was recently requested at fd.o](https://bugs.freedesktop.org/show
 
 ===
 
-<p class="alignright">The Lima driver is sponsored by <a href="http://www.codethink.co.uk"><img border="0" src="/codethink.png" alt="Codethink" />
+<p class="alignright">The Lima driver is sponsored by <a href="http://www.codethink.co.uk/2012/01/23/open-source-graphics-drivers/"><img border="0" src="/codethink.png" alt="Codethink" />
 </a></p>
